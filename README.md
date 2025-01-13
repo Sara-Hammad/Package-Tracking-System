@@ -1,8 +1,8 @@
 # Package Tracking System
-Overview
+# Overview
 The Package Tracking System is designed to streamline the process of managing and tracking packages for businesses and couriers. The system facilitates order creation, assignment to couriers, and status tracking, making it easier for businesses to deliver their packages and for customers to stay informed about their deliveries.
 
-Built with Go for the backend, React for the frontend, and deployed on # OpenShift, the application provides scalability and reliability through containerization and cloud deployment.
+Built with Go for the backend, React for the frontend, and deployed on OpenShift, the application provides scalability and reliability through containerization and cloud deployment.
 
 # Features
 # User Features
