@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Package Tracking System
+Overview
+The # Package Tracking System is designed to streamline the process of managing and tracking packages for businesses and couriers. The system facilitates order creation, assignment to couriers, and status tracking, making it easier for businesses to deliver their packages and for customers to stay informed about their deliveries.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built with # Go for the backend, # React for the frontend, and deployed on # OpenShift, the application provides scalability and reliability through containerization and cloud deployment.
 
-## Available Scripts
+# Features
+# User Features
+User Registration:
 
-In the project directory, you can run:
+Register accounts with name, email, phone number, and password.
+Secure backend validation and account creation.
+User Login:
 
-### `npm start`
+Login interface for registered users.
+Authentication via secure endpoints.
+Create Orders:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Input package details (pickup/drop-off locations, package weight, delivery preferences).
+Save orders in the database.
+My Orders:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+View a list of orders placed by the user, including order status and delivery progress.
+Order Details:
 
-### `npm test`
+Detailed view of specific orders, including courier assignment and package status.
+Option to cancel pending orders.
+# Courier Features
+Assigned Orders:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+View a list of assigned orders with status indicators.
+Options to accept or decline orders.
+Update Order Status:
 
-### `npm run build`
+Interface to update the status of a package (e.g., picked up, in transit, delivered).
+# Admin Features
+Manage Orders:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+View, update, and delete orders via an admin panel.
+Reassign orders to different couriers.
+Assign Orders to Couriers:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Manage the assignment of packages to couriers.
+Reassign orders when necessary.
+# Technologies Used
+Backend
+Go: RESTful API implementation.
+MySQL: Database for managing users, orders, and couriers.
+Frontend
+React: Responsive and dynamic user interface.
+Deployment
+Docker: Containerization for backend, frontend, and database.
+OpenShift: Deployment and management of containers in a cloud environment.
