@@ -1,0 +1,50 @@
+.manage-orders-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .status-select,
+  .courier-input {
+    margin-right: 10px;
+  }
+  
+  .delete-button,
+  .reassign-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .delete-button:hover,
+  .reassign-button:hover {
+    background-color: #218838;
+  }
+  
+  .courier-input {
+    width: 120px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
